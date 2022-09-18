@@ -90,7 +90,7 @@ MonoBehaviour:
   abilityManager: {fileID: 0}
   gameManager: {fileID: 0}
   duplicateCost: 3
-  dismantleCost: 4
+  dismantleCost: 2
   enlargeCost: 5
   rushCost: 3
   cellRushCost: 10
@@ -130,7 +130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6258f64b986cd2c42a1ed8e1cbd35be6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAI: 0
 --- !u!1 &3225123951902483497
 GameObject:
   m_ObjectHideFlags: 0

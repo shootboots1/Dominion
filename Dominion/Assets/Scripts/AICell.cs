@@ -64,7 +64,7 @@ public class AICell : MonoBehaviour
                 Debug.Log("Rush");
                 rush();
             }
-            if(Random.Range(1, 50) == 10)
+            if(Random.Range(1, 100) == 1)
             {
                 Debug.Log("cellRush");
 

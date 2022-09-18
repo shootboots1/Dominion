@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3225123951876785335}
   - component: {fileID: 3225123951876785336}
   - component: {fileID: 3225123951876785337}
+  - component: {fileID: 4741786579164119767}
   m_Layer: 0
   m_Name: DeadCell
   m_TagString: RedCells
@@ -71,6 +72,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4741786579164119767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3225123951876785334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6258f64b986cd2c42a1ed8e1cbd35be6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3225123951902483497
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,11 +22,11 @@ public class CellConsumption : MonoBehaviour
         {
             if (transform.localScale.x > collision.transform.localScale.x)
             {
-                transform.localScale -= new Vector3(collision.transform.localScale.x, collision.transform.localScale.y, collision.transform.localScale.z);
+                transform.localScale -= new Vector3(collision.transform.localScale.x/1.5f, collision.transform.localScale.y/1.5f, collision.transform.localScale.z/1.5f);
                 Destroy(collision.gameObject);
             }
             else if (transform.localScale.x < collision.transform.localScale.x){
-                collision.transform.localScale -= new Vector3(transform.localScale.x, transform.localScale.y, transform.localScale.z);
+                collision.transform.localScale -= new Vector3(transform.localScale.x / 1.5f, transform.localScale.y / 1.5f, transform.localScale.z / 1.5f);
                 Destroy(gameObject);
             }
         }
@@ -37,7 +37,7 @@ public class CellConsumption : MonoBehaviour
         {
             if (transform.localScale.x > collision.transform.localScale.x)
             {
-                transform.localScale -= new Vector3(collision.transform.localScale.x, collision.transform.localScale.y, collision.transform.localScale.z);
+                transform.localScale -= new Vector3(collision.transform.localScale.x / 1.5f, collision.transform.localScale.y / 1.5f, collision.transform.localScale.z / 1.5f);
                 Destroy(collision.gameObject);
             }
             else if (transform.localScale.x < collision.transform.localScale.x){
