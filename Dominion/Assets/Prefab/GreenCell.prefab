@@ -276,7 +276,7 @@ MonoBehaviour:
   dismantleEffect: {fileID: 6987190290050363149, guid: 50504b26f090e304ab43e8b8086232aa, type: 3}
   dismantleAmount: 5
   dismantledCell: {fileID: 3821107817195039796, guid: a6cdb6496a4e06f40b409e929a27cf85, type: 3}
-  enlargeAmount: 0.5
+  enlargeAmount: 0.2
   rushForce: 500
   cellRushForce: 900
   function: 0
